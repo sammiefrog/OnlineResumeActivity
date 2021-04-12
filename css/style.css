@@ -1,0 +1,85 @@
+
+
+
+/* style.css */
+
+body {
+  background-color: #fff;
+}
+
+h2 {
+  color: #547558;
+  margin-left: 20px;
+  margin-bottom: -15px;
+  margin-top: -22px;
+  text-transform: uppercase;
+  font-family: "courier new";
+}
+
+
+
+p, ul {
+	text-align: justify;
+}
+
+
+
+
+
+/*LEFT SIDE OF PAGE */
+
+
+.leftside {
+	width: 60%;
+	margin-top: 5%;
+	float: left;
+}
+
+.date {
+	font-size: 14px;
+	float: right;
+}
+
+.position {
+	font-size: 14px;
+}
+
+.company {
+	color: #6b706b;
+}
+
+.location {
+	font-size: 12px;
+}
+
+/*RIGHT SIDE OF PAGE */
+
+.rightside {
+	float: right;
+	width: 30%;
+	min-height: 500px;
+	margin: 5%;
+	background-color: #b6c7a3;
+	align-content: center;
+	padding: 20px;
+	margin-left: 16px;
+
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px 30px 20px;
+    border-radius: 50%;
+}
+
+
+.title {
+  color: #000000;
+  
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "courier new";
+}
+
