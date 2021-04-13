@@ -1,0 +1,43 @@
+body{
+    
+    margin: 0px;
+}
+.main{
+height: 900px;
+    background-color: rgb(250, 243, 243);
+    display: grid;
+    grid-template-columns: 10% 60% 20% 10%;
+    grid-template-rows: 10% 40% 40% 10%; 
+    grid-row-gap: 20px;
+}
+.header{
+    background-color: turquoise;
+    grid-area: 1 / 1 / 2 / 5;
+    text-align: center;
+    text-align: center;
+}
+
+.profile{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.experince{
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.image{
+    grid-area: 2 / 3/ 3 / 4;
+}
+
+.footer{
+    grid-area: 4 / 1 / 5 / 5;
+    background-color: skyblue;
+    text-align: center;
+}
+
+#picture{
+    max-width: 200px;
+}
+
+.sub-title{
+    font-weight: bolder;
+}
