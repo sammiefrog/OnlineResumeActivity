@@ -1,0 +1,102 @@
+body *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    width: 80%;
+    height: 70vh;
+    margin: 2rem auto;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 3fr 1fr 5fr;
+    grid-column-gap: 3rem;
+}
+
+.left {
+ grid-column: 1 / 2;
+ grid-row: 1 / 4;
+}
+
+.title {
+    color: steelblue;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+
+
+.picture {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.name {
+    grid-column: 2 / 3;
+ grid-row: 2 / 3;
+ text-align: center;
+ font-family: 'RocknRoll One', sans-serif;
+
+}
+
+.name h1 {
+    font-size: 26px;
+}
+.contact {
+    grid-column: 2 / 3;
+ grid-row: 3 / 4;
+ background-color: hsl(207, 44%, 69%);
+ color: white;
+ font-weight: bold;
+ font-size: 1rem;
+ line-height: 1.5;
+ font-family: 'RocknRoll One', sans-serif;
+}
+
+.picture, .name {
+    background-color: steelblue;
+    color: white;
+}
+
+.left {
+    line-height: 1.5;
+}
+
+.right {
+    padding: 1rem;
+}
+
+.location {
+    color: gray;
+}
+
+.year {
+    float: right;
+    color: gray;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.picture {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.fas, .fab {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
