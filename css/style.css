@@ -1,0 +1,83 @@
+/* UNIVERSAL STYLING */
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #3c362a;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header summary"
+    "info section_exp"
+    "info section_edu";
+  grid-template-columns: 400px 3fr;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+
+header {
+  grid-area: header;
+  background-color: #b8c4bb;
+  padding: 2%;
+}
+
+.summary {
+  grid-area: summary;
+  padding: 2%;
+}
+
+.info {
+  grid-area: info;
+  background-color: #e8f7ee;
+  padding: 2%;
+}
+
+.edu {
+  grid-area: section_edu;
+  padding: 2%;
+}
+
+.exp {
+  grid-area: section_exp;
+  padding: 2%;
+}
+
+a {
+  color: blue;
+}
+
+.date_loc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.75rem;
+  color: #663f46;
+}
+
+#date {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#loc {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  background-color: #c9d6ea;
+}
+
+img {
+  width: 100%;
+}
